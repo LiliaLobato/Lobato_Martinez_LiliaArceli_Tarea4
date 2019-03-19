@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Tarea 4</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_logout">LogOut</string>
+    <string name="action_privacy">Privacy Policy</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="Technology_Tab">Technology</string>
+    <string name="Home_Tab">Home</string>
+    <string name="Electronics_Tab">Electronics</string>
+    <string name="Edit_name">Nombre</string>
+    <string name="Edit_store">Tienda</string>
+    <string name="Edit_direccion">Dirección</string>
+    <string name="Edit_phone">Teléfono</string>
+    <string name="Button_save">GUARDAR</string>
+    <string name="Button_cancel">CANCELAR</string>
+
+    //Login
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="login">LOGIN</string>
+
+
+    //Product Alienware
+    <string name="alienware_title">Alienware 17"</string>
+    <string name="alienware_store">BestBuy</string>
+    <string name="alienware_location">Zapopan, Jalisco</string>
+    <string name="alienware_phone">33 12345678</string>
+    <string name="alienware_image">0</string>
+    <string name="alienware_description">Description for the Alienware</string>
+    <string name="saludo">Welcome to My Tarea 4</string>
+
+    //Product Mac
+    <string name="mac_title">MacBook Pro 17"</string>
+    <string name="mac_store">BestBuy</string>
+    <string name="mac_location">Zapopan, Jalisco</string>
+    <string name="mac_phone">33 12345678</string>
+    <string name="mac_image">1</string>
+    <string name="mac_description">Description for the Mac</string>
+
+    //Product Micro
+    <string name="micro_title">Microondas</string>
+    <string name="micro_store">BestBuy</string>
+    <string name="micro_location">Zapopan, Jalisco</string>
+    <string name="micro_phone">33 12345678</string>
+    <string name="micro_image">2</string>
+    <string name="micro_description">Description for the Microwave</string>
+
+    //Product Pillows
+    <string name="pillows_title">Pillows</string>
+    <string name="pillows_store">BestBuy</string>
+    <string name="pillows_location">Zapopan, Jalisco</string>
+    <string name="pillows_phone">33 12345678</string>
+    <string name="pillows_image">3</string>
+    <string name="pillows_description">Description for the Pillows</string>
+
+    //Product Refrigerator
+    <string name="refrigerator_title">Refrigerator</string>
+    <string name="refrigerator_store">BestBuy</string>
+    <string name="refrigerator_location">Zapopan, Jalisco</string>
+    <string name="refrigerator_phone">33 12345678</string>
+    <string name="refrigerator_image">4</string>
+    <string name="refrigerator_description">Description for the Refrigerator</string>
+
+    //Product Sheet
+    <string name="sheets_title">Sheets</string>
+    <string name="sheets_store">BestBuy</string>
+    <string name="sheets_location">Zapopan, Jalisco</string>
+    <string name="sheets_phone">33 12345678</string>
+    <string name="sheets_image">5</string>
+    <string name="sheets_description">Description for the Sheets</string>
+
+</resources>
+

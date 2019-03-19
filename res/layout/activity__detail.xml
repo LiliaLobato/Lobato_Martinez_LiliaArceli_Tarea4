@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity_Detail">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_product_imageview_margin"
+        android:scaleType="centerCrop"
+        android:id="@+id/activity_detail_image"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Edit_name"
+        android:id="@+id/activity_detail_name"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Edit_store"
+        android:id="@+id/activity_detail_store"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Edit_direccion"
+        android:id="@+id/activity_detail_location"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Edit_phone"
+        android:id="@+id/activity_detail_phone"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="2"
+    android:padding="@dimen/activity_vertical_margin"
+    android:gravity="bottom">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+android:layout_weight="1"
+        android:text="@string/Button_save"
+        android:onClick="salvar"
+        android:id="@+id/activity_detail_save"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/Button_cancel"
+        android:id="@+id/activity_detail_cancel"/>
+</LinearLayout>
+
+
+</LinearLayout>
